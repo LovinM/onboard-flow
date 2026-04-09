@@ -99,9 +99,7 @@ export default function Certificates() {
                 <CardContent className="pt-6">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4">
-                      <div className="w-14 h-14 rounded-full bg-blue-50 border-2 border-blue-200 flex items-center justify-center text-blue-600 font-bold text-xs text-center leading-tight">
-                        USIU<br/>SEAL
-                      </div>
+                      
                       <div>
                         <h3 className="font-bold text-slate-800 text-lg">{cert.courses?.title}</h3>
                         <p className="text-slate-500 text-sm">
